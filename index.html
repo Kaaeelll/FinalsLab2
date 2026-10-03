@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Student Score Evaluation</title>
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <main class="dashboard">
+      <div class="top">
+        <!-- Score Result -->
+        <div class="result-card">
+          <div class="card-header">
+            <div>
+              <p class="card-label">SCORE EVALUATION</p>
+              <h2>Score Result</h2>
+            </div>
+
+            <div class="blue-icon">✓</div>
+          </div>
+
+          <div id="result">
+            <p class="show">Your result will appear here.</p>
+          </div>
+        </div>
+
+        <!-- Performance Levels -->
+        <div class="card grading-card">
+          <p class="card-label">GRADING SYSTEM</p>
+
+          <h2>Performance Levels</h2>
+
+          <div class="grade">
+            <span class="grade-circle excellent"></span>
+
+            <div>
+              <strong>90 - 100</strong>
+              <p>Excellent</p>
+            </div>
+          </div>
+
+          <div class="grade">
+            <span class="grade-circle passed"></span>
+
+            <div>
+              <strong>75 - 89</strong>
+              <p>Passed</p>
+            </div>
+          </div>
+
+          <div class="grade">
+            <span class="grade-circle failed"></span>
+
+            <div>
+              <strong>Below 75</strong>
+              <p>Failed</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Process Cards -->
+      <div class="bottom">
+        <div class="mini-card">
+          <div class="mini">01</div>
+
+          <div>
+            <strong>Enter Information</strong>
+            <p>Name and score</p>
+          </div>
+        </div>
+
+        <div class="mini-card">
+          <div class="mini">02</div>
+
+          <div>
+            <strong>Evaluate Score</strong>
+            <p>Automatic evaluation</p>
+          </div>
+        </div>
+
+        <div class="mini-card">
+          <div class="mini">03</div>
+
+          <div>
+            <strong>View Result</strong>
+            <p>See your remark</p>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
