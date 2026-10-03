@@ -1,5 +1,5 @@
 function evaluateScore(score) {
-  // Check if the score is not a number
+ 
   if (isNaN(score)) {
     return "Invalid score";
   }
